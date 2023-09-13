@@ -1,0 +1,25 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Printer Not Working",
+      "body": "I'm having trouble with my office printer. It's not printing anything, and I have an urgent report to print. Can someone please assist me with this issue?",
+      "priority": "low",
+      "user_email": "john.doe@example.com"
+    },
+    {
+      "id": "2",
+      "title": "Email Account Access Problem",
+      "body": "I can't access my email account. It keeps saying my password is incorrect, even though I'm sure it's correct. Can you help me reset my password or resolve this issue?",
+      "priority": "medium",
+      "user_email": "jane.smith@example.com"
+    },
+    {
+      "id": "3",
+      "title": "Network Connection Slow",
+      "body": "The internet connection in our office is extremely slow today, and it's affecting our work. Can someone please check and fix the network speed issue as soon as possible?",
+      "priority": "high",
+      "user_email": "mark.johnson@example.com"
+    }
+  ]
+}
