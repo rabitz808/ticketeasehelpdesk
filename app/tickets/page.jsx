@@ -1,4 +1,3 @@
-import React from "react";
 import TicketList from "./TicketList";
 
 export default function Tickets() {
@@ -6,10 +5,7 @@ export default function Tickets() {
     <main>
       <nav>
         <div>
-          <h2>Tickets</h2>
-          <p>
-            <small>Currently open tickets:</small>
-          </p>
+          <h2>Currently Open Tickets:</h2>
         </div>
       </nav>
       <TicketList />
