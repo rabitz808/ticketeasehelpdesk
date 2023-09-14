@@ -36,7 +36,7 @@ export default async function TicketDetails({ params }) {
       <nav>
         <h2>Ticket Details:</h2>
       </nav>
-      <div className="card my-5">
+      <div className="card my-5 mx-5">
         <h3>{ticket.title}</h3>
         <small>Created by: {ticket.user_email}</small>
         <p>{ticket.body}</p>
