@@ -113,7 +113,7 @@ form button {
 
 /* pill styles */
 .pill {
-  @apply py-1 px-2 mt-3
+  @apply py-1 px-2 mb-3
     inline-block 
     text-xs font-semibold;
 }
@@ -127,6 +127,6 @@ form button {
   @apply bg-emerald-300 text-emerald-600;
 }
 .card .pill {
-  @apply absolute bottom-0 right-0 
+  @apply absolute top-0 right-0 
     rounded-tl-md;
 }
