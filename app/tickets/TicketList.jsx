@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GoToDashboard from "../components/GoToDashboard";
 
 async function getTickets() {
   const res = await fetch("http://localhost:4000/tickets", {
@@ -30,6 +31,7 @@ export default async function TicketList() {
       {tickets.length === 0 && (
         <p className="text-center">There are currently no open tickets...</p>
       )}
+      <GoToDashboard />
     </>
   );
 }

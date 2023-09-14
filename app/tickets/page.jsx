@@ -5,7 +5,7 @@ export default function Tickets() {
     <main>
       <nav>
         <div>
-          <h2>Currently Open Tickets:</h2>
+          <h2>Open Tickets:</h2>
         </div>
       </nav>
       <TicketList />

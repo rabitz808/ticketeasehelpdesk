@@ -1,3 +1,4 @@
+import GoToTickets from "@/app/components/GoToTickets";
 import { notFound } from "next/navigation";
 export const dynamicParams = true;
 
@@ -33,7 +34,7 @@ export default async function TicketDetails({ params }) {
   return (
     <main>
       <nav>
-        <h2>Ticket Details</h2>
+        <h2>Ticket Details:</h2>
       </nav>
       <div className="card my-5">
         <h3>{ticket.title}</h3>
@@ -43,6 +44,7 @@ export default async function TicketDetails({ params }) {
           {ticket.priority} priority
         </div>
       </div>
+      <GoToTickets />
     </main>
   );
 }
