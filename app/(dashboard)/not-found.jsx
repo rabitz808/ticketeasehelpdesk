@@ -1,5 +1,5 @@
 import React from "react";
-import DashboardAndTickets from "./components/DashboardAndTickets";
+import DashboardAndTickets from "../components/DashboardAndTickets";
 
 export default function NotFound() {
   return (

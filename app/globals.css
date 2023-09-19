@@ -103,12 +103,26 @@ form button {
     relative 
     overflow-hidden;
 }
+
 .card h3 {
   @apply font-bold text-gray-700 text-sm 
     mb-0;
 }
 .card p {
   @apply my-4 text-sm leading-6;
+}
+
+/* card styles */
+.card.high {
+  @apply border-4 border-l-red-600;
+}
+
+.card.medium {
+  @apply border-4 border-l-blue-600;
+}
+
+.card.low {
+  @apply border-4 border-l-emerald-600;
 }
 
 /* pill styles */
@@ -127,6 +141,5 @@ form button {
   @apply bg-emerald-300 text-emerald-600;
 }
 .card .pill {
-  @apply absolute top-0 right-0 
-    rounded-tl-md;
+  @apply absolute top-0 right-0;
 }
